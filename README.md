@@ -10,3 +10,4 @@
 ### What can additionally do:
 1. Create template file (Ex.: block_image/templates/block-image.tpl.php) use hook_theme.
 2. Show image when loaded.
+*(I did not do it because in the task do as http://yoursite.com/file/add, but I can do it).*
