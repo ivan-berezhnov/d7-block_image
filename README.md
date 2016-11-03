@@ -8,5 +8,5 @@
 5. Add fo panel content (Custom -> Block Image)
 
 ### What can additionally do:
-1. Create template file (Ex.: block_image/templates/block-image.tpl.php).
+1. Create template file (Ex.: block_image/templates/block-image.tpl.php) use hook_theme.
 2. Show image when loaded.
