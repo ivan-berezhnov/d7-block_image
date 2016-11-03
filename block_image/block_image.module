@@ -1,0 +1,29 @@
+<?php
+
+/**
+ * @file block_image.module
+ * Primarily Drupal hooks.
+ */
+
+/**
+ * Implements hook_permission().
+ */
+function block_image_permission()
+{
+    return array(
+        'administer image block' => array(
+            'title'       => t('Administer Block Image.'),
+            'description' => t('Allow use Block Image.'),
+        )
+    );
+}
+
+/**
+ * Implements hook_ctools_plugin_directory().
+ */
+function block_image_ctools_plugin_directory($owner, $plugin_type)
+{
+    if ($owner == 'ctools' && $plugin_type == 'content_types') {
+        return 'plugins/content_types';
+    }
+}
