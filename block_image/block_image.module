@@ -20,6 +20,11 @@ function block_image_permission()
 
 /**
  * Implements hook_ctools_plugin_directory().
+ *
+ * @param $owner
+ * @param $plugin_type
+ *
+ * @return string
  */
 function block_image_ctools_plugin_directory($owner, $plugin_type)
 {

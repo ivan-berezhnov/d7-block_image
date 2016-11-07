@@ -1,9 +1,7 @@
 name = Block Image
 description = Insert an block image anywhere in the template.
 core = 7.x
-version = 7.x-1.0
 package = "Panels Media"
-
 dependencies[] = panels
 dependencies[] = views
 dependencies[] = file_entity
